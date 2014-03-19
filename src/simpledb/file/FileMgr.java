@@ -22,6 +22,8 @@ import java.util.*;
  * @author Edward Sciore
  */
 public class FileMgr {
+
+    private int numread;
    private File dbDirectory;
    private boolean isNew;
    private Map<String,FileChannel> openFiles = new HashMap<String,FileChannel>();
@@ -36,6 +38,8 @@ public class FileMgr {
     * @param dbname the name of the directory that holds the database
     */
    public FileMgr(String dbname) {
+
+       numread = 0;
       String homedir = System.getProperty("user.home");
       dbDirectory = new File(homedir, dbname);
       isNew = !dbDirectory.exists();
@@ -57,6 +61,7 @@ public class FileMgr {
     */
    synchronized void read(Block blk, ByteBuffer bb) {
       try {
+          numread++;
          bb.clear();
          FileChannel fc = getFile(blk.fileName());
          fc.read(bb, blk.number() * BLOCK_SIZE);
@@ -139,4 +144,13 @@ public class FileMgr {
       }
       return fc;
    }
+
+    public int getReadAcc(){
+        return numread;
+    }
+
+    public void resetRead(){
+        numread = 0;
+    }
+
 }

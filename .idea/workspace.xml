@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93de5fe1-92a2-4efd-b748-0ec51fdee063" name="Default" comment="" />
+    <list default="true" id="93de5fe1-92a2-4efd-b748-0ec51fdee063" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/simpledb/buffer/ClockBufferMgr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/simpledb/buffer/BasicBufferMgr.java" afterPath="$PROJECT_DIR$/src/simpledb/buffer/BasicBufferMgr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/simpledb/file/FileMgr.java" afterPath="$PROJECT_DIR$/src/simpledb/file/FileMgr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/simpledb/remote/RemoteConnectionImpl.java" afterPath="$PROJECT_DIR$/src/simpledb/remote/RemoteConnectionImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/simpledb/server/SimpleDB.java" afterPath="$PROJECT_DIR$/src/simpledb/server/SimpleDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="simpleDB.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,38 +77,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Block.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/simpledb/file/Block.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="26" selection-start="717" selection-end="717" vertical-scroll-proportion="0.48507464" vertical-offset="0" max-vertical-offset="885">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateStudentDB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/studentClient/simpledb/CreateStudentDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="48" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1620">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Startup.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpledb/server/Startup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleDB.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SimpleDB.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/simpledb/server/SimpleDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="11" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1695">
+            <state line="25" column="37" selection-start="883" selection-end="883" vertical-scroll-proportion="0.4787234" vertical-offset="0" max-vertical-offset="1605">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClockBufferMgr.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/ClockBufferMgr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="128" column="16" selection-start="3734" selection-end="3734" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="2115">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferMgr.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/BufferMgr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="37" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1950">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteConnectionImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simpledb/remote/RemoteConnectionImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="38" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1185">
+              <folding>
+                <element signature="e#261#288#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,6 +121,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -135,6 +148,12 @@
         <option value="$PROJECT_DIR$/src/studentClient/derby/Servlet/ServletFindMajorsInputForm.java" />
         <option value="$PROJECT_DIR$/src/studentClient/derby/StudentInfo/CourseDAO.java" />
         <option value="$PROJECT_DIR$/src/simpledb/server/Startup.java" />
+        <option value="$PROJECT_DIR$/src/simpledb/file/FileMgr.java" />
+        <option value="$PROJECT_DIR$/src/simpledb/remote/RemoteConnectionImpl.java" />
+        <option value="$PROJECT_DIR$/src/simpledb/buffer/BasicBufferMgr.java" />
+        <option value="$PROJECT_DIR$/src/simpledb/buffer/ClockBufferMgr.java" />
+        <option value="$PROJECT_DIR$/src/simpledb/buffer/BufferMgr.java" />
+        <option value="$PROJECT_DIR$/src/simpledb/server/SimpleDB.java" />
       </list>
     </option>
   </component>
@@ -145,7 +164,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -171,7 +190,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,10 +221,99 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpledb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpledb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpledb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpledb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpledb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,9 +340,25 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateStudentDB">
+  <component name="RunManager" selected="Application.SQLInterpreter">
     <configuration default="false" name="CreateStudentDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="studentClient.simpledb.CreateStudentDB" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simpleDB" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SQLInterpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="studentClient.simpledb.SQLInterpreter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -284,6 +407,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -309,19 +445,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -389,17 +512,25 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="simpleDB" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Startup" />
       <item index="1" class="java.lang.String" itemvalue="Application.CreateStudentDB" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SQLInterpreter" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.CreateStudentDB" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.SQLInterpreter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CreateStudentDB" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -435,7 +566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -447,19 +578,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28674698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28674698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -478,13 +609,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -508,6 +639,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/simpledb/file/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="31" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/studentClient/simpledb/CreateStudentDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/server/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/server/SimpleDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpledb/file/Block.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="26" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
@@ -546,11 +705,6 @@
         <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.06355932" vertical-offset="30" max-vertical-offset="795" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/studentClient/simpledb/SQLInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/studentClient/simpledb/StudentMajor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
@@ -561,9 +715,21 @@
         <state line="22" column="1" selection-start="730" selection-end="730" vertical-scroll-proportion="0.6991525" vertical-offset="0" max-vertical-offset="2925" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/BasicBufferMgr.java">
+    <entry file="file://$PROJECT_DIR$/src/simpledb/file/Block.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="755" selection-end="755" vertical-scroll-proportion="0.7627119" vertical-offset="0" max-vertical-offset="1875" />
+        <state line="20" column="31" selection-start="586" selection-end="586" vertical-scroll-proportion="0.29925188" vertical-offset="60" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/file/FileMgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="20" selection-start="4974" selection-end="4974" vertical-scroll-proportion="0.0" vertical-offset="1418" max-vertical-offset="2340">
+          <folding>
+            <element signature="e#4892#4893#0" expanded="true" />
+            <element signature="e#4922#4923#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/simpledb/server/Startup.java">
@@ -573,23 +739,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/studentClient/simpledb/CreateStudentDB.java">
+    <entry file="file://$PROJECT_DIR$/src/studentClient/simpledb/SQLInterpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
+        <state line="11" column="42" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpledb/file/Block.java">
+    <entry file="file://$PROJECT_DIR$/src/simpledb/remote/RemoteConnectionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="717" selection-end="717" vertical-scroll-proportion="0.48507464" vertical-offset="0" max-vertical-offset="885">
+        <state line="65" column="38" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1185">
+          <folding>
+            <element signature="e#261#288#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/BasicBufferMgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="145" selection-end="145" vertical-scroll-proportion="0.21276596" vertical-offset="0" max-vertical-offset="1875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/ClockBufferMgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="16" selection-start="3734" selection-end="3734" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="2115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/studentClient/simpledb/CreateStudentDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="612" selection-end="612" vertical-scroll-proportion="0.45212767" vertical-offset="0" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/BufferMgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="37" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/simpledb/server/SimpleDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="11" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
+        <state line="25" column="37" selection-start="883" selection-end="883" vertical-scroll-proportion="0.4787234" vertical-offset="0" max-vertical-offset="1605">
           <folding />
         </state>
       </provider>

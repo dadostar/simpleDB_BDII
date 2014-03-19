@@ -9,17 +9,17 @@ import simpledb.file.*;
  */
 class BasicBufferMgr {
    private Buffer[] bufferpool;
-   private int numAvailable;
-   
-   /**
-    * Creates a buffer manager having the specified number 
+    private int numAvailable;
+
+    /**
+    * Creates a buffer manager having the specified number
     * of buffer slots.
     * This constructor depends on both the {@link FileMgr} and
-    * {@link simpledb.log.LogMgr LogMgr} objects 
+    * {@link simpledb.log.LogMgr LogMgr} objects
     * that it gets from the class
     * {@link simpledb.server.SimpleDB}.
     * Those objects are created during system initialization.
-    * Thus this constructor cannot be called until 
+    * Thus this constructor cannot be called until
     * {@link simpledb.server.SimpleDB#initFileAndLogMgr(String)} or
     * is called first.
     * @param numbuffs the number of buffer slots to allocate

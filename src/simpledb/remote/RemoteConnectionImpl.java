@@ -1,5 +1,6 @@
 package simpledb.remote;
 
+import simpledb.server.SimpleDB;
 import simpledb.tx.Transaction;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -35,7 +36,12 @@ class RemoteConnectionImpl extends UnicastRemoteObject implements RemoteConnecti
     * @see simpledb.remote.RemoteConnection#close()
     */
    public void close() throws RemoteException {
+       System.out.println(SimpleDB.fileMgr().getReadAcc());
       tx.commit();
+      SimpleDB.fileMgr().resetRead();
+
+
+
    }
    
 // The following methods are used by the server-side classes.
@@ -54,8 +60,10 @@ class RemoteConnectionImpl extends UnicastRemoteObject implements RemoteConnecti
     * and begins a new one.
     */
    void commit() {
+       System.out.println(SimpleDB.fileMgr().getReadAcc());
       tx.commit();
       tx = new Transaction();
+       SimpleDB.fileMgr().resetRead();
    }
    
    /**
